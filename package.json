@@ -1,0 +1,23 @@
+{
+  "name": "rxjs-ts-scaffold",
+  "version": "1.0.0",
+  "description": "Scaffolding code for a RXJS application with TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development"
+  },
+  "author": "Arun Shankar <arun@lemorian.tech> (https://github.com/lemorian)",
+  "license": "GNU",
+  "devDependencies": {
+    "@types/node": "^10.12.21",
+    "typescript": "^3.3.1",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "rxjs": "^6.4.0",
+    "ts-loader": "^5.3.3",
+    "webpack": "^4.29.0",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
